@@ -1,4 +1,4 @@
-# ANA-515-Assignment-3--Allison-Chaang
+# ANA-515-Assignment-3-Allison-Chaang
 Storm Data in 1997
 
 Steps in this code:
