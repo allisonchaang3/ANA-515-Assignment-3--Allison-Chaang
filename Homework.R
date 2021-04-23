@@ -17,7 +17,7 @@ library(stringr)
 install.packages("dplyr")
 library(dplyr)
 
-#addint begin and end datetime formats to limiteddata df
+#adding begin and end datetime formats to limiteddata df
 mutate(eventsdata, BEGIN_DATE_TIME=dmy_hms(BEGIN_DATE_TIME),END_DATE_TIME=dmy_hms(END_DATE_TIME))
 limiteddata$BEGIN_DATE_TIME=eventsdata$BEGIN_DATE_TIME
 limiteddata$END_DATE_TIME=eventsdata$END_DATE_TIME
