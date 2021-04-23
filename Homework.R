@@ -25,6 +25,7 @@ limiteddata$END_DATE_TIME=eventsdata$END_DATE_TIME
 #titlecase formatting for one column (STATE)
 limiteddata$STATE <- str_to_title(limiteddata$STATE)
 limiteddata$STATE
+limiteddata$CZ_NAME <- str_to_title(limiteddata$CZ_NAME)
 
 #filtering for cz_type="c" --> filtereddata
 filtereddata <- filter(limiteddata, CZ_TYPE=="C")
